@@ -99,7 +99,7 @@ var Configuration = map[string]PathConfig{
 	"lsof":    Allowed,
 	"nproc":   Allowed,
 	"openssl": Allowed,
-	"perl":    Log,
+	"perl":    Allowed,
 	"printf":  Log,
 	"pstree":  Allowed,
 	"rsync":   Allowed,
